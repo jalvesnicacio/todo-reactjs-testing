@@ -1,0 +1,16 @@
+.todo_item{
+    display: flex;
+    border: 1px solid;
+    min-width: 300px;
+    position: relative;
+}
+
+.remove_item{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.checked_item{
+    text-decoration: line-through;
+}
