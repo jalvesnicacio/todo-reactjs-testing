@@ -7,7 +7,7 @@ function Todo(){
 
     const handleInputTaskChange = function(event){
         setTask(event.target.value)
-        console.log(event)
+        // console.log(event)
     }
 
     const handleFormSubmit = function(event){

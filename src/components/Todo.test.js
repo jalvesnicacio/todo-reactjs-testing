@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import Todo from "./Todo";
 
 describe('Test for Todo component', () =>{
-    test('Deve verificar se a descrição da tarefa aparesse no input', () => {
+    test('Deve verificar se a descrição da tarefa aparece no input', () => {
         const valorEsperado = "testando"
         render(<Todo />)
         const inputElement = screen.getByTestId('inputTask')
